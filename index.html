@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
 	<title>Iframe</title>
 	<style>
 		body {
@@ -16,10 +17,14 @@
 	<h2>Kde najdete Czechitas?</h2>
 	
 	<!-- Sem vlož iframe s mapou a špendlíkem ukazujícím místní pobočku Czechitas. Můžeš použít maps.google.cz nebo mapy.cz. -->
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8299.345533391675!2d14.422366135363264!3d50.08313100155479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b95c03c605b5f%3A0x8530b05026b3011c!2sCzechitas%20Praha!5e0!3m2!1scs!2scz!4v1627030163983!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-	</iframe>
+	<div class="mapa">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8299.345533391675!2d14.422366135363264!3d50.08313100155479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b95c03c605b5f%3A0x8530b05026b3011c!2sCzechitas%20Praha!5e0!3m2!1scs!2scz!4v1627030163983!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+		</iframe>
+	</div>
 	<h2>Co si pustit před kurzem HTML a CSS 1?</h2>
 	<!-- Sem vlož iframe s videem od Luďka https://www.youtube.com/watch?v=PSp6ydTtImI -->
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/PSp6ydTtImI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</body>
+	<div class="video">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/PSp6ydTtImI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	</body>
 </html>
